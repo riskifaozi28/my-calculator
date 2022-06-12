@@ -44,31 +44,6 @@ function inputDecimal(dot) {
   currentNumber += dot;
 }
 
-function performCalculator() {
-  let result = "";
-
-  switch (calculatorOperator) {
-    case "+":
-      result = prevNumber + currentNumber;
-      break;
-    case "-":
-      result = prevNumber - currentNumber;
-      break;
-    case "×":
-      result = prevNumber * currentNumber;
-      break;
-    case "÷":
-      result = prevNumber / currentNumber;
-      break;
-
-    default:
-      break;
-  }
-
-  currentNumber = result;
-  calculatorOperator = "";
-}
-
 function calculate() {
   let result = "";
   let divide = null;
