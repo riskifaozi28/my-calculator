@@ -50,16 +50,16 @@ function calculate() {
 
   switch (calculatorOperator) {
     case "+":
-      result = parseFloat(prevNumber) + parseFloat(currentNumber);
+      divide = parseFloat(prevNumber) + parseFloat(currentNumber);
       break;
     case "-":
-      result = parseFloat(prevNumber) - parseFloat(currentNumber);
+      divide = parseFloat(prevNumber) - parseFloat(currentNumber);
       break;
     case "×":
-      result = parseFloat(prevNumber) * parseFloat(currentNumber);
+      divide = parseFloat(prevNumber) * parseFloat(currentNumber);
       break;
     case "÷":
-      result = parseFloat(prevNumber) / parseFloat(currentNumber);
+      divide = parseFloat(prevNumber) / parseFloat(currentNumber);
       break;
 
     default:
