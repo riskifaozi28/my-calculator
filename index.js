@@ -59,14 +59,14 @@ function calculate() {
       result = parseFloat(prevNumber) * parseFloat(currentNumber);
       break;
     case "÷":
-      divide = parseFloat(prevNumber) / parseFloat(currentNumber);
-      result = divide.toFixed(2);
+      result = parseFloat(prevNumber) / parseFloat(currentNumber);
       break;
 
     default:
       break;
   }
 
+  result = divide.toFixed(2);
   currentNumber = result;
 }
 
